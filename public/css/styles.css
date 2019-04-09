@@ -44,11 +44,23 @@ header a {
     text-decoration: none;
 }
 
+.messages {
+    margin: 45px 0 0 45px;
+}
+#message-1 {
+    font-size: 40px;
+}
+
+.indented {
+    margin: 70px 50px 50px 50px;
+}
+
 .portrait {
     width: 250px;
 }
 
 input {
+    width: 300px;
     border: 1px solid #cccccc;
     padding: 8px;
 }
@@ -60,3 +72,4 @@ button {
     color: white;
     padding: 8px;
 }
+
