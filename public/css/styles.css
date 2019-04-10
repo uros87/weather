@@ -54,6 +54,14 @@ header a {
 .indented {
     margin: 70px 50px 50px 50px;
 }
+.indented p {
+    border-bottom: solid;
+    border-width: 1px;       
+}
+
+.indented p:empty {
+    border: none;
+}
 
 .portrait {
     width: 250px;

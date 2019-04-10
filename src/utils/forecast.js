@@ -13,6 +13,7 @@ const forecast = (latitude, longitude, callback) => {
                 timeData: body.currently.time,
                 currentSummary: body.currently.summary,
                 todaySummary: body.hourly.summary,
+                todayMaxTemp: body.currently.temperature,
                 nextDay: body.daily.data[1].time,
                 nextDaySummary: body.daily.data[1].summary,
                 nextDayMaxTemp: body.daily.data[1].temperatureHigh,

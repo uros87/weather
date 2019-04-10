@@ -21,7 +21,7 @@ weatherForm.addEventListener('submit', (e) => {
             }else {
                 messageOne.textContent = `${data.location}`
                 messageTwo.textContent = `Date: ${data.timeData}`
-                messageThree.textContent = `Currently: ${data.currentSummary}`    
+                messageThree.textContent = `Currently: ${data.currentSummary}. Temp: ${data.todayMaxTemp}`;    
                 messageFour.textContent = `Daily prognosis: ${data.todaySummary}`
             }
         })   

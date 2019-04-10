@@ -57,6 +57,7 @@ app.get('/weather', (req, res) => {
                 timeData: moment.unix(weatherData.timeData).format('dddd, MMMM Do YYYY, h:mm:ss a'),
                 currentSummary: weatherData.currentSummary,
                 todaySummary: weatherData.todaySummary,
+                todayMaxTemp: weatherData.todayMaxTemp,
                 location: location
             })
         })
